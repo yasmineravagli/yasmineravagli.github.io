@@ -1,0 +1,182 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position:relative;
+  background-color: white;
+  text-align:center;
+}
+
+.navbar * li {
+  list-style: none;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.container {
+  padding: 50px;
+}
+
+/*Homepage*/
+
+.img-fluid {
+  width: 500px;
+  margin-top: 80px;
+}
+
+#Introduction h1 {
+  text-align:left;
+  font-weight: normal;
+  margin-top: 80px;
+}
+
+#Introduction em {
+  color: #9397c4
+}
+
+#Introduction h3 {
+  text-align:left;
+  font-weight: lighter;
+}
+
+#Introduction .btn {
+  background-color: #9397C4;
+  border: none;
+  border-radius: 30px;
+  width: 120px;
+  margin-top: 40px;
+}
+
+#Projects h2 {
+  text-align: center;
+  padding: 40px;
+}
+
+#Projects h4 {
+  font-weight: lighter;
+}
+
+#Projects .picture {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+#Projects .btn {
+  background-color: #9397C4;
+  border: none;
+  border-radius: 30px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+#Services h2 {
+  text-align: center;
+  padding: 50px;
+}
+
+#Services h4 {
+  font-weight: normal;
+}
+
+#Services .picture {
+  margin-top: 20px;
+  width: 150px;
+}
+
+#Services .btn {
+  background-color: #5e6164;
+  border: none;
+  border-radius: 30px;
+  width: 150px;
+  margin-top: 40px;
+}
+
+/*About*/
+
+#Description h1 {
+  text-align:left;
+  font-weight: 200;
+  margin-top: 80px;
+  color: #9397c4;
+}
+
+#Description h3 {
+  text-align:left;
+  font-weight: normal;
+  color: #202528
+}
+
+#Description p {
+  text-align:left;
+  font-weight: 200;
+}
+
+/*Portfolio*/
+
+#Portfolio h2 {
+  margin-top: 80px;
+  padding: 50px;
+}
+
+#Portfolio h4 {
+  font-weight: lighter;
+}
+
+#Portfolio .picture {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  width: 70%;
+}
+
+#Portfolio p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/*Contacts*/
+
+#Contacts h1 {
+  font-weight: 200;
+  margin-top: 80px;
+  color: #9397c4;
+}
+
+#Contacts h3 {
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+#Contacts p {
+  color: #9397c4;
+  font-size: 24px;
+}
+
+#Social h1 {
+  margin-top: -40px;
+  font-weight: 200;
+  color: #9397c4;
+}
+
+#Social .logo {
+  margin-top: 50px;
+  width: 50px;
+}
+
+/*Footer*/
+
+footer {
+  padding: 25px;
+  background-color: #d2d1ea;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #202528 ;
+  text-decoration: underline;
+}
